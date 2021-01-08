@@ -1,0 +1,13 @@
+server:
+  port: 8091
+spring:
+  profiles:
+    include: db_dev
+
+#jasypt加密的密匙
+jasypt:
+  encryptor:
+    password: EbfYkitulv73I2p0mXI50JMXoaxZTKJ7
+
+mybatis:
+  mapper-locations: classpath:lightman/mybatis_generator/mapper/*.xml

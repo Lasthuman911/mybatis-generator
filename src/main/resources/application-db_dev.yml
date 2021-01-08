@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wzmtest?characterEncoding=utf8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: ENC(6FwR+U79jCOny4qXSyLPmQ==)
+# mac:123456 win:wzm12345
